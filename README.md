@@ -4,12 +4,12 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&width=820&height=45&lines=Security+Engineer+%7C+AWS+%2B+Jenkins+pipelines;Exploitability-first+triage+%C2%B7+clear+write-ups;PNPT+track+%C2%B7+bug+bounty+recon+automation)](https://github.com/Chaithu5)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=900&height=50&lines=%24+whoami;Security+Engineer+%E2%80%94+AppSec+%C2%B7+Cloud+%C2%B7+DevSecOps+%C2%B7+Threat+Intel;Building+toward+PNPT+%7C+OMS+Cybersecurity+capstone)](https://github.com/Chaithu5)
 
 <br/>
 
-[![GitHub](https://img.shields.io/badge/GitHub-Chaithu5-181717?style=for-the-badge&logo=github)](https://github.com/Chaithu5)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-chaitanya--anv-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/chaitanya-anv/)
+[![GitHub](https://img.shields.io/badge/GitHub-Chaithu5-181717?style=for-the-badge&logo=github&labelColor=1A1B26)](https://github.com/Chaithu5)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-chaitanya--anv-0A66C2?style=for-the-badge&logo=linkedin&labelColor=1A1B26)](https://www.linkedin.com/in/chaitanya-anv/)
 
 </div>
 
@@ -55,6 +55,12 @@ alert / finding → validate exploitability (not just the severity label) → fi
 | ![Gitleaks](https://img.shields.io/badge/Gitleaks-1A1A2E?style=flat-square) ![Checkov](https://img.shields.io/badge/Checkov-0B2E59?style=flat-square) ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white) | ![PNPT](https://img.shields.io/badge/PNPT-in_progress-555?style=flat-square) ![AI Security](https://img.shields.io/badge/AI_Security-learning-7C3AED?style=flat-square) ![Claude](https://img.shields.io/badge/Claude_Code-recon_automation-CC785C?style=flat-square) | [![Bash](https://skillicons.dev/icons?i=bash)](https://www.gnu.org/software/bash/) |
 | ![Semgrep](https://img.shields.io/badge/Semgrep-9B2C2C?style=flat-square) ![Dependency-Track](https://img.shields.io/badge/SBOM%20%2F%20SCA-0F766E?style=flat-square) | ![httpx](https://img.shields.io/badge/httpx-00ADD8?style=flat-square) ![subfinder](https://img.shields.io/badge/subfinder-1F2937?style=flat-square) | ![IAM](https://img.shields.io/badge/AWS_IAM-FF9900?style=flat-square&logo=amazon-aws&logoColor=white) ![WAF](https://img.shields.io/badge/WAF%20%2F%20CDN-232F3E?style=flat-square) |
 
+<p align="center"><sub>Representative tooling (illustrative commands; not executed against a live target).</sub></p>
+
+<div align="center">
+  <img src="https://profilekit.vercel.app/api/terminal?theme=tokyo_night&font=jetbrains-mono&prompt=%24&color=22D3EE&accent_color=22D3EE&border_color=164E63&bg_color=1A1B26&window_title=tooling.sh&width=720&speed=45&pause=750&commands=%23+illustrative+only+%E2%80%94+not+live+output,snyk+test+--severity-threshold%3Dhigh,trivy+image+%3Cimage%3E,nmap+-sV+-p-+%3Ctarget%3E" alt="Representative security tooling commands" width="100%" />
+</div>
+
 ---
 
 ## Selected projects
@@ -65,19 +71,19 @@ alert / finding → validate exploitability (not just the severity label) → fi
 | [**portfolio-website**](https://github.com/Chaithu5/portfolio-website) | ![live](https://img.shields.io/badge/live-0EA5E9?style=flat-square) | Personal site (HTML / CSS / JS / Bootstrap). [Pages](https://chaithu5.github.io/portfolio-website/). |
 
 <details>
-<summary><strong>Earlier projects</strong></summary>
+<summary><strong>Earlier projects</strong> <code>// ARCHIVE.LOG</code></summary>
 
-| Repo | Description |
-|---|---|
-| [Sorting-Visualizer](https://github.com/Chaithu5/Sorting-Visualizer) | Visualizes bubble, insertion, selection, merge, and quick sort. |
-| [DMA-project](https://github.com/Chaithu5/DMA-project) | World Happiness Index 2020: visualize, cluster, predict. |
-| [Audiobook](https://github.com/Chaithu5/Audiobook) | PDF to speech (PyPDF2 / gTTS / Streamlit). |
-| [Speech-to-Text](https://github.com/Chaithu5/Speech-to-Text) | Mic to text via SpeechRecognition. |
-| [Face-Detection](https://github.com/Chaithu5/Face-Detection) | Minimal OpenCV face-detection demo. |
-| [Public-Face-mask-Detection](https://github.com/Chaithu5/Public-Face-mask-Detection) | Mask detection with OpenCV + TensorFlow. |
-| [Traffic-Sign-recognition](https://github.com/Chaithu5/Traffic-Sign-recognition) | Traffic-sign recognition. |
-| [Electric-Billing-System](https://github.com/Chaithu5/Electric-Billing-System) | DBMS project (PHP). |
-| [Simple-Chatbox-using-NLTK](https://github.com/Chaithu5/Simple-Chatbox-using-NLTK) | Small NLTK chatbot experiment. |
+<pre>
+<a href="https://github.com/Chaithu5/Sorting-Visualizer">[ARCHIVED] Sorting-Visualizer</a> · Visualizes bubble, insertion, selection, merge, and quick sort.
+<a href="https://github.com/Chaithu5/DMA-project">[ARCHIVED] DMA-project</a> · World Happiness Index 2020: visualize, cluster, predict.
+<a href="https://github.com/Chaithu5/Audiobook">[ARCHIVED] Audiobook</a> · PDF to speech (PyPDF2 / gTTS / Streamlit).
+<a href="https://github.com/Chaithu5/Speech-to-Text">[ARCHIVED] Speech-to-Text</a> · Mic to text via SpeechRecognition.
+<a href="https://github.com/Chaithu5/Face-Detection">[ARCHIVED] Face-Detection</a> · Minimal OpenCV face-detection demo.
+<a href="https://github.com/Chaithu5/Public-Face-mask-Detection">[ARCHIVED] Public-Face-mask-Detection</a> · Mask detection with OpenCV + TensorFlow.
+<a href="https://github.com/Chaithu5/Traffic-Sign-recognition">[ARCHIVED] Traffic-Sign-recognition</a> · Traffic-sign recognition.
+<a href="https://github.com/Chaithu5/Electric-Billing-System">[ARCHIVED] Electric-Billing-System</a> · DBMS project (PHP).
+<a href="https://github.com/Chaithu5/Simple-Chatbox-using-NLTK">[ARCHIVED] Simple-Chatbox-using-NLTK</a> · Small NLTK chatbot experiment.
+</pre>
 
 </details>
 
@@ -87,7 +93,7 @@ alert / finding → validate exploitability (not just the severity label) → fi
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.ashutosh-dwivedi0710.workers.dev/graph?username=Chaithu5&theme=react-dark&hide_border=true&area=true&custom_title=Public%20contribution%20activity&radius=12&height=280" alt="Public contribution activity" width="100%" />
+<img src="https://github-readme-activity-graph.ashutosh-dwivedi0710.workers.dev/graph?username=Chaithu5&theme=react-dark&hide_border=true&area=true&custom_title=Public%20contribution%20activity&radius=12&height=280&color=22d3ee&line=22d3ee&point=ffffff&bg_color=1a1b26" alt="Public contribution activity" width="100%" />
 
 <br/><br/>
 
@@ -95,8 +101,8 @@ alert / finding → validate exploitability (not just the severity label) → fi
 
 <br/>
 
-<img height="148" src="https://github-readme-stats.vercel.app/api?username=Chaithu5&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" alt="GitHub stats" />
-<img height="148" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chaithu5&layout=compact&theme=radical&hide_border=true&langs_count=6" alt="Top languages" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Chaithu5&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&title_color=22D3EE&icon_color=22D3EE&text_color=C0CAF5&bg_color=1A1B26&border_color=164E63" alt="GitHub stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chaithu5&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&title_color=22D3EE&text_color=C0CAF5&bg_color=1A1B26&border_color=164E63" alt="Top languages" />
 
 </div>
 
