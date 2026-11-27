@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="240" viewBox="0 0 1100 240" role="img" aria-label="Chaithu anv Security Engineer profile banner">
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="240" viewBox="0 0 1100 240" role="img" aria-label="Chaitanya anv Security Engineer profile banner">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#070B14"/>
@@ -28,7 +28,7 @@
   <rect x="36" y="56" width="4" height="128" rx="2" fill="url(#accent)"/>
 
   <text x="58" y="78" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" fill="#64748B">SECURITY ENGINEER</text>
-  <text x="58" y="124" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="44" font-weight="700" fill="#F8FAFC">Chaithu anv</text>
+  <text x="58" y="124" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="44" font-weight="700" fill="#F8FAFC">Chaitanya anv</text>
   <text x="58" y="158" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16" fill="#94A3B8">AppSec  |  Cloud  |  DevSecOps  |  Threat Intel  |  AI Security</text>
 
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12">

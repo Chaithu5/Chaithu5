@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Chaithu5/Chaithu5/main/assets/header.png" alt="Chaithu anv Security Engineer" width="100%" />
+<img src="https://raw.githubusercontent.com/Chaithu5/Chaithu5/main/assets/header.png" alt="Chaitanya anv Security Engineer" width="100%" />
 
 <br/>
 
@@ -38,7 +38,7 @@ Day to day I live in an AWS + Jenkins world. When a finding lands, I care less a
 - **OMS Cybersecurity (Georgia Tech)**: graduating **December 2026**; capstone on an AI-powered threat intel pipeline
 - **AI security**: prompt injection, LLM red-teaming, and controls around AI-assisted systems ![learning](https://img.shields.io/badge/learning-7C3AED?style=flat-square)
 - **Supply chain security**: dependency and package risk in the build path ![in progress](https://img.shields.io/badge/in_progress-555?style=flat-square)
-- **Chat intelligence**: turning noisy chat / alert streams into usable security signal ![experimental](https://img.shields.io/badge/experimental-555?style=flat-square)
+- **Threat intelligence**: AI-assisted collection and triage for usable security signal ![in progress](https://img.shields.io/badge/in_progress-555?style=flat-square)
 - **VAPT / PNPT**: offensive practice toward PNPT ![in progress](https://img.shields.io/badge/in_progress-555?style=flat-square)
 - **Bug bounty recon automation**: Claude Code skills for a `subfinder → httpx → nuclei` pipeline ![experimental](https://img.shields.io/badge/experimental-555?style=flat-square)
 
