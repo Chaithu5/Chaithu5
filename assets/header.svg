@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="240" viewBox="0 0 1100 240" role="img" aria-label="Chaithu anv Security Engineer profile banner">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -24,15 +25,12 @@
   <rect x="1.5" y="1.5" width="1097" height="237" rx="18.5" fill="none" stroke="#334155" stroke-width="1.5"/>
   <rect x="1.5" y="1.5" width="1097" height="5" rx="2.5" fill="url(#accent)"/>
 
-  <!-- left accent bar -->
   <rect x="36" y="56" width="4" height="128" rx="2" fill="url(#accent)"/>
 
-  <!-- identity -->
   <text x="58" y="78" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" fill="#64748B">SECURITY ENGINEER</text>
   <text x="58" y="124" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="44" font-weight="700" fill="#F8FAFC">Chaithu anv</text>
-  <text x="58" y="158" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16" fill="#94A3B8">AppSec  ·  Cloud  ·  DevSecOps  ·  Threat Intel  ·  AI Security</text>
+  <text x="58" y="158" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16" fill="#94A3B8">AppSec  |  Cloud  |  DevSecOps  |  Threat Intel  |  AI Security</text>
 
-  <!-- domain chips -->
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12">
     <rect x="58" y="178" width="72" height="26" rx="8" fill="#0EA5E9" fill-opacity="0.14" stroke="#0EA5E9" stroke-opacity="0.45"/>
     <text x="72" y="195" fill="#7DD3FC">AppSec</text>
@@ -50,7 +48,6 @@
     <text x="450" y="195" fill="#F9A8D4">AI Security</text>
   </g>
 
-  <!-- static radar / shield (no SMIL; GitHub camo often breaks animated SVG) -->
   <g transform="translate(940,120)" opacity="0.95">
     <circle r="70" fill="none" stroke="#1E293B" stroke-width="14"/>
     <circle r="70" fill="none" stroke="#334155" stroke-width="1.5"/>
