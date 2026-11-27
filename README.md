@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Chaithu5/Chaithu5/main/assets/header.png" alt="Chaitanya anv Security Engineer" width="100%" />
+<img src="https://raw.githubusercontent.com/Chaithu5/Chaithu5/main/assets/banner.png" alt="Chaitanya anv Security Engineer" width="100%" />
 
 <br/>
 
