@@ -55,8 +55,6 @@ alert / finding → validate exploitability (not just the severity label) → fi
 | ![Gitleaks](https://img.shields.io/badge/Gitleaks-1A1A2E?style=flat-square) ![Checkov](https://img.shields.io/badge/Checkov-0B2E59?style=flat-square) ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white) | ![PNPT](https://img.shields.io/badge/PNPT-in_progress-555?style=flat-square) ![AI Security](https://img.shields.io/badge/AI_Security-learning-7C3AED?style=flat-square) ![Claude](https://img.shields.io/badge/Claude_Code-recon_automation-CC785C?style=flat-square) | [![Bash](https://skillicons.dev/icons?i=bash)](https://www.gnu.org/software/bash/) |
 | ![Semgrep](https://img.shields.io/badge/Semgrep-9B2C2C?style=flat-square) ![Dependency-Track](https://img.shields.io/badge/SBOM%20%2F%20SCA-0F766E?style=flat-square) | ![httpx](https://img.shields.io/badge/httpx-00ADD8?style=flat-square) ![subfinder](https://img.shields.io/badge/subfinder-1F2937?style=flat-square) | ![IAM](https://img.shields.io/badge/AWS_IAM-FF9900?style=flat-square&logo=amazon-aws&logoColor=white) ![WAF](https://img.shields.io/badge/WAF%20%2F%20CDN-232F3E?style=flat-square) |
 
-<p align="center"><sub>Representative tooling (illustrative commands; not executed against a live target).</sub></p>
-
 <div align="center">
   <img src="https://profilekit.vercel.app/api/terminal?theme=tokyo_night&font=jetbrains-mono&prompt=%24&color=22D3EE&accent_color=22D3EE&border_color=164E63&bg_color=1A1B26&window_title=tooling.sh&width=720&speed=45&pause=750&commands=%23+illustrative+only+%E2%80%94+not+live+output,snyk+test+--severity-threshold%3Dhigh,trivy+image+%3Cimage%3E,nmap+-sV+-p-+%3Ctarget%3E" alt="Representative security tooling commands" width="100%" />
 </div>
