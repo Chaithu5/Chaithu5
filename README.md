@@ -62,8 +62,6 @@ How I triage: alert/finding → validate exploitability (not just the severity l
 
 ## Public work
 
-Most of my day-to-day security work lives in private/employer repos — what's here is personal projects and practice.
-
 | Repo | Description |
 |---|---|
 | [**AWS-Exposure-Monitor**](https://github.com/Chaithu5/AWS-Exposure-Monitor) | AWS internet-exposure monitor: inventory, high-risk port reachability, resource attribution, run diffs. |
