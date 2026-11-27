@@ -1,65 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="220" viewBox="0 0 1100 220" role="img" aria-label="Chaithu5 security engineer profile banner">
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="240" viewBox="0 0 1100 240" role="img" aria-label="Chaithu anv Security Engineer profile banner">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0B1220"/>
-      <stop offset="55%" stop-color="#111827"/>
-      <stop offset="100%" stop-color="#0F172A"/>
+      <stop offset="0%" stop-color="#070B14"/>
+      <stop offset="50%" stop-color="#0B1220"/>
+      <stop offset="100%" stop-color="#111827"/>
     </linearGradient>
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38BDF8"/>
-      <stop offset="50%" stop-color="#22D3EE"/>
-      <stop offset="100%" stop-color="#34D399"/>
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="50%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#818CF8"/>
     </linearGradient>
-    <linearGradient id="scan" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#22D3EE" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    <linearGradient id="ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#6366F1"/>
     </linearGradient>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M28 0H0V28" fill="none" stroke="#1E293B" stroke-width="1"/>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#1E293B" stroke-width="1"/>
     </pattern>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="b"/>
-      <feMerge>
-        <feMergeNode in="b"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
   </defs>
 
-  <rect width="1100" height="220" rx="18" fill="url(#bg)"/>
-  <rect width="1100" height="220" rx="18" fill="url(#grid)" opacity="0.55"/>
-  <rect x="1" y="1" width="1098" height="218" rx="17" fill="none" stroke="#334155" stroke-width="1.5"/>
-  <rect x="1" y="1" width="1098" height="4" rx="2" fill="url(#accent)"/>
+  <rect width="1100" height="240" rx="20" fill="url(#bg)"/>
+  <rect width="1100" height="240" rx="20" fill="url(#grid)" opacity="0.45"/>
+  <rect x="1.5" y="1.5" width="1097" height="237" rx="18.5" fill="none" stroke="#334155" stroke-width="1.5"/>
+  <rect x="1.5" y="1.5" width="1097" height="5" rx="2.5" fill="url(#accent)"/>
 
-  <!-- radar / shield motif -->
-  <g transform="translate(930,110)" opacity="0.9" filter="url(#glow)">
-    <circle r="58" fill="none" stroke="#1E293B" stroke-width="10"/>
-    <circle r="58" fill="none" stroke="#334155" stroke-width="1.5"/>
-    <circle r="38" fill="none" stroke="#0EA5E9" stroke-width="1.2" opacity="0.7"/>
-    <circle r="18" fill="none" stroke="#22D3EE" stroke-width="1.5"/>
-    <circle r="3.5" fill="#34D399"/>
-    <path d="M0 0 L48 -18" stroke="#38BDF8" stroke-width="2" stroke-linecap="round">
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/>
-    </path>
-    <path d="M-22,-8 C-10,-32 10,-32 22,-8 L14,20 C6,28 -6,28 -14,20 Z" fill="none" stroke="#34D399" stroke-width="2" opacity="0.85"/>
+  <!-- left accent bar -->
+  <rect x="36" y="56" width="4" height="128" rx="2" fill="url(#accent)"/>
+
+  <!-- identity -->
+  <text x="58" y="78" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" fill="#64748B">SECURITY ENGINEER</text>
+  <text x="58" y="124" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="44" font-weight="700" fill="#F8FAFC">Chaithu anv</text>
+  <text x="58" y="158" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16" fill="#94A3B8">AppSec  ·  Cloud  ·  DevSecOps  ·  Threat Intel  ·  AI Security</text>
+
+  <!-- domain chips -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12">
+    <rect x="58" y="178" width="72" height="26" rx="8" fill="#0EA5E9" fill-opacity="0.14" stroke="#0EA5E9" stroke-opacity="0.45"/>
+    <text x="72" y="195" fill="#7DD3FC">AppSec</text>
+
+    <rect x="140" y="178" width="68" height="26" rx="8" fill="#22D3EE" fill-opacity="0.12" stroke="#22D3EE" stroke-opacity="0.4"/>
+    <text x="154" y="195" fill="#67E8F9">Cloud</text>
+
+    <rect x="218" y="178" width="96" height="26" rx="8" fill="#34D399" fill-opacity="0.12" stroke="#34D399" stroke-opacity="0.4"/>
+    <text x="230" y="195" fill="#6EE7B7">DevSecOps</text>
+
+    <rect x="324" y="178" width="104" height="26" rx="8" fill="#A78BFA" fill-opacity="0.12" stroke="#A78BFA" stroke-opacity="0.4"/>
+    <text x="336" y="195" fill="#C4B5FD">Threat Intel</text>
+
+    <rect x="438" y="178" width="98" height="26" rx="8" fill="#F472B6" fill-opacity="0.12" stroke="#F472B6" stroke-opacity="0.4"/>
+    <text x="450" y="195" fill="#F9A8D4">AI Security</text>
   </g>
 
-  <!-- scanline -->
-  <rect x="0" y="0" width="1100" height="18" fill="url(#scan)" opacity="0.55">
-    <animate attributeName="y" values="0;202;0" dur="7s" repeatCount="indefinite"/>
-  </rect>
-
-  <text x="48" y="78" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="18" fill="#64748B">~/security</text>
-  <text x="48" y="122" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="42" font-weight="700" fill="#F8FAFC">Chaithu anv</text>
-  <text x="48" y="158" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="18" fill="#94A3B8">Security Engineer  ·  AppSec  ·  Cloud  ·  DevSecOps  ·  Threat Intel</text>
-
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13">
-    <rect x="48" y="176" width="86" height="24" rx="6" fill="#0EA5E9" fill-opacity="0.15" stroke="#0EA5E9" stroke-opacity="0.45"/>
-    <text x="61" y="192" fill="#7DD3FC">OMS · 2026</text>
-    <rect x="146" y="176" width="92" height="24" rx="6" fill="#34D399" fill-opacity="0.12" stroke="#34D399" stroke-opacity="0.4"/>
-    <text x="158" y="192" fill="#6EE7B7">PNPT · WIP</text>
-    <rect x="250" y="176" width="118" height="24" rx="6" fill="#A78BFA" fill-opacity="0.12" stroke="#A78BFA" stroke-opacity="0.4"/>
-    <text x="262" y="192" fill="#C4B5FD">AI × Security</text>
+  <!-- static radar / shield (no SMIL; GitHub camo often breaks animated SVG) -->
+  <g transform="translate(940,120)" opacity="0.95">
+    <circle r="70" fill="none" stroke="#1E293B" stroke-width="14"/>
+    <circle r="70" fill="none" stroke="#334155" stroke-width="1.5"/>
+    <circle r="48" fill="none" stroke="url(#ring)" stroke-width="1.5" opacity="0.85"/>
+    <circle r="28" fill="none" stroke="#22D3EE" stroke-width="1.2" opacity="0.7"/>
+    <circle r="4" fill="#34D399"/>
+    <path d="M0 0 L42 -26" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M-20,-6 C-8,-30 8,-30 20,-6 L12,22 C5,30 -5,30 -12,22 Z" fill="none" stroke="#818CF8" stroke-width="2.2"/>
+    <path d="M-70 0 H70 M0 -70 V70" stroke="#1E293B" stroke-width="1"/>
   </g>
 </svg>
