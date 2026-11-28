@@ -33,14 +33,6 @@ Security engineer who likes turning repetitive security work into code. Here you
   <img src="https://skillicons.dev/icons?i=py,ts,js,react,tailwind,vite,aws,azure,gcp,terraform,jenkins,githubactions,git,linux,kali,grafana&perline=8" alt="Python, TypeScript, JavaScript, React, Tailwind CSS, Vite, AWS, Azure, Google Cloud, Terraform, Jenkins, GitHub Actions, Git, Linux, Kali Linux, Grafana" />
 </p>
 
-### 🕸️ Contributions
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Chaithu5/Chaithu5/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Chaithu5/Chaithu5/output/snake.svg" />
-  <img src="https://raw.githubusercontent.com/Chaithu5/Chaithu5/output/snake.svg" alt="Animated snake eating my GitHub contribution graph" width="100%" />
-</picture>
-
 <details>
 <summary><strong>🗂️ Earlier projects</strong></summary>
 <br />
