@@ -1,0 +1,60 @@
+name: Contribution snake
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/snake.yml"]
+
+permissions: {}
+
+concurrency:
+  group: snake
+  cancel-in-progress: true
+
+jobs:
+  # The third-party action only ever gets a read-only token.
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg?color_snake=#CC1414&color_dots=#ebedf0,#ffd0c2,#ff8a70,#e5342b,#8f0d12
+            dist/snake-dark.svg?color_snake=#00C8FF&color_dots=#161b22,#4a0d14,#8f1218,#cc1414,#ff5a3c
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: snake
+          path: dist
+          retention-days: 1
+
+  # Write access is limited to this job, which runs no third-party code.
+  publish:
+    needs: generate
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          name: snake
+          path: dist
+      - name: Replace the output branch
+        working-directory: dist
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GIT_AUTHOR_NAME: github-actions[bot]
+          GIT_AUTHOR_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+          GIT_COMMITTER_NAME: github-actions[bot]
+          GIT_COMMITTER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+        run: |
+          git init --quiet --initial-branch=output
+          git add snake.svg snake-dark.svg
+          git commit --quiet -m "Update contribution snake"
+          auth=$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)
+          git -c "http.extraheader=AUTHORIZATION: basic $auth" push --quiet --force "https://github.com/${GITHUB_REPOSITORY}.git" output
